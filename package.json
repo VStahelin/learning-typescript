@@ -1,0 +1,15 @@
+{  
+  "scripts": {
+    "format": "npx prettier '**/*.ts' '**/*.js' --write",
+    "compile": "tsc",
+    "server": "lite-server --baseDir=dist",
+    "start": "concurrently \"npm run watch\" \"npm run server\""
+  },
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+  
+}
