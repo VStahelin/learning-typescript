@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Test</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css" />
+  </head>
+
+  <body class="container text-center">
+    <h1>Add Person</h1>
+    <div id="message-view"></div>
+    <form id="form-person" class="form row justify-content-center">
+      <div>
+        <input
+          type="text"
+          id="input-name"
+          class="form-control"
+          placeholder="Name"
+        />
+      </div>
+      <div>
+        <input
+          type="text"
+          id="input-age"
+          class="form-control"
+          placeholder="Age"
+        />
+      </div>
+      <button id="btn-submit" class="btn btn-primary" onclick="">Submit</button>
+    </form>
+    <br />
+    <div id="people-view"></div>
+    <script type="module" src="dist/js/app.js"></script>
+  </body>
+</html>

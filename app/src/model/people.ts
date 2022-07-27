@@ -1,4 +1,3 @@
-import { ReadonlyCollection } from "../../node_modules/typescript/lib/typescript.js";
 import Person from "./person.js";
 
 export default class People {

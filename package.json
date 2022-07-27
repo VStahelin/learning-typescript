@@ -3,7 +3,7 @@
     "format": "npx prettier '**/*.ts' '**/*.js' --write",
     "watch": "tsc -w",
     "compile": "tsc",
-    "server": "lite-server --baseDir=dist",
+    "server": "lite-server --baseDir=app",
     "start": "concurrently \"npm run watch\" \"npm run server\""
   },
   "dependencies": {
